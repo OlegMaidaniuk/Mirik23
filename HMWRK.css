@@ -1,0 +1,54 @@
+body{
+    color: white;
+    font-size: 35px;
+    font-family: "Monotype Corsiva", sans-serif;
+
+}
+.father{
+    margin: 0 auto;
+    padding: 20px;
+    width: 800px;
+    height: 720px;
+    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.header{
+    background: blue;
+    height: 200px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    /*height: auto;*/
+    /*width: auto;*/
+}
+
+.footer {
+    background: blue;
+    height: 300px;
+    /*width: auto;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brawl{
+    height: 250px;
+    width: 250px;
+    /*border: white 1px solid;*/
+    background: #6161de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brawl:hover{
+
+    background: gold;
+    color: olive;
+}
